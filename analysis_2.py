@@ -18,8 +18,8 @@ def load_word_list(file_path):
     return words
 
 # Load positive and negative word lists
-positive_words_file = './positive-words.txt'
-negative_words_file = './negative-words.txt'
+positive_words_file = './sentiment/positive-words.txt'
+negative_words_file = './sentiment/negative-words.txt'
 
 positive_words = load_word_list(positive_words_file)
 negative_words = load_word_list(negative_words_file)
